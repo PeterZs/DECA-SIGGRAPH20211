@@ -12,6 +12,8 @@ from copy import deepcopy
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '.')))
 np.random.seed(0)
 
+#test
+
 def main(cfg):
     # creat folders 
     os.makedirs(os.path.join(cfg.output_dir, cfg.train.log_dir), exist_ok=True)
