@@ -24,16 +24,18 @@ conda activate py3.8_DECA
 
 项目所需文件（下载后均放置到.data目录下）：
 
-1. [FLAME2020.zip](https://flame.is.tue.mpg.de/download.php)，下载完毕后，解压提取各个model.pkl。
+1. [FLAME2020.zip](https://drive.google.com/file/d/1ymlBlqcHjVWYX8dbT9BugeGR50h2bWuu/view?usp=drive_link)，下载完毕后，解压提取各个model.pkl。
 2. [deca_model.tar](https://drive.google.com/file/d/1rp8kdyLPvErw2dTmqtjISRVvQLj6Yzje/view)，无需解压。
 
 Optional（For Teaser）：
 
-FLAME_albedo_from_BFM.npz：
+[FLAME_albedo_from_BFM.npz](https://drive.google.com/file/d/1ymlBlqcHjVWYX8dbT9BugeGR50h2bWuu/view?usp=drive_link)：
 
-到[BFM_to_FLAME](https://github.com/TimoBolkart/BFM_to_FLAME)运行文件导出，首先要在[这里](https://faces.dmi.unibas.ch/bfm/bfm2017.html)注册账号，下载model2017-1_bfm_nomouth.h5文件，并放置在BFM_to_FLAME工程的model文件夹下，运行`python col_to_tex.py`以导出`FLAME_albedo_from_BFM.npz`。
 
-相关博客：
+~~到[BFM_to_FLAME](https://github.com/TimoBolkart/BFM_to_FLAME)运行文件导出，首先要在[这里](https://faces.dmi.unibas.ch/bfm/bfm2017.html)注册账号，下载model2017-1_bfm_nomouth.h5文件，并放置在BFM_to_FLAME工程的model文件夹下，运行`python col_to_tex.py`以导出`FLAME_albedo_from_BFM.npz`。~~
+
+
+[相关博客](https://www.jianshu.com/p/1593b06ee8cf)
 
 # DECA: Detailed Expression Capture and Animation (SIGGRAPH2021)
 
