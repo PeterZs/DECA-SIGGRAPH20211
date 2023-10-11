@@ -34,6 +34,25 @@ Optional（For Teaser）：
 
 ~~到[BFM_to_FLAME](https://github.com/TimoBolkart/BFM_to_FLAME)运行文件导出，首先要在[这里](https://faces.dmi.unibas.ch/bfm/bfm2017.html)注册账号，下载model2017-1_bfm_nomouth.h5文件，并放置在BFM_to_FLAME工程的model文件夹下，运行`python col_to_tex.py`以导出`FLAME_albedo_from_BFM.npz`。~~
 
+### 相关指令
+
+人脸重建
+
+```
+python demos/demo_reconstruct.py -i TestSamples/examples --saveDepth True --saveObj True --rasterizer_type=pytorch3d
+```
+
+表情迁移
+
+```
+python demos/demo_transfer.py --image_path TestSamples/examples/IMG_0392_inputs.jpg --exp_path TestSamples/exp/4.jpg --rasterizer_type=pytorch3d
+```
+
+姿态和表情动画
+
+```
+python demos/demo_teaser.py --rasterizer_type=pytorch3d
+```
 
 [相关博客](https://www.jianshu.com/p/1593b06ee8cf)
 
