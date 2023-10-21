@@ -47,3 +47,7 @@ __pycache__
 cluster_scripts
 internal
 *TestSamples*
+/data/deca_model.tar
+/data/female_model.pkl 
+/data/male_model.pkl
+/data/generic_model.pkl
